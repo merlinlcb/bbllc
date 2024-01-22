@@ -24,6 +24,7 @@
   <meta property="og:title" content="Bennett Bros LLC">
   <meta property="og:description" content="An IT Solution, that works for you.">
   <meta property="og:url" content="https://bennettbrosllc.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:type" content="website">
 </head>
 
@@ -175,16 +176,17 @@
   }
 </style>
 
-<body>
+<body class="bg-black">
   <div class="header">
     <div class="header-inner">
       <div class="container-fluid px-lg-5">
         <div class="d-flex justify-content-center py-3">
           <nav class="nav nav-masthead justify-content-center float-md-center">
-            <a class="nav-link active text-light" aria-current="page" href="#" id="nav1" onclick='function1()'>Home</a>
-            <a class="nav-link text-light" href="#" id="nav2" onclick='function2()'>About</a>
-            <a class="nav-link text-light" href="#" id="nav3" onclick='function3()'>Pricing</a>
-            <a class="nav-link text-light" href="#" id="nav4" onclick='function4()'>Bio</a>
+            <a class="nav-link active text-light" aria-current="page" href="#" id="nav1"
+              onclick='switchTab("homecontainer")'>Home</a>
+            <a class="nav-link text-light" href="#" id="nav2" onclick='switchTab("aboutcontainer")'>About</a>
+            <a class="nav-link text-light" href="#" id="nav3" onclick='switchTab("contactcontainer")'>Pricing</a>
+            <a class="nav-link text-light" href="#" id="nav4" onclick='switchTab("biocontainer")'>Bio</a>
           </nav>
         </div>
       </div>
@@ -395,20 +397,6 @@
   <script src="js/particles.js"></script>
   <script src="js/customfunctions.js"></script>
   <script src="js/app.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Set the initial state on page load
-      var homeContainer = document.getElementById("homecontainer");
-      var aboutContainer = document.getElementById("aboutcontainer");
-      var contactContainer = document.getElementById("contactcontainer");
-
-      homeContainer.style.display = "block";
-      aboutContainer.style.display = "none";
-      contactContainer.style.display = "none";
-    });
-  </script>
-
-
 </body>
 
 </html>

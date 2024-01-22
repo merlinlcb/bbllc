@@ -226,3 +226,44 @@ input[type="text"] {
 p {
   background: transparent;
 }
+
+#aboutcontainer {
+  overflow-y: auto; /* Add this to enable vertical scrolling */
+  max-height: 100vh; /* Set a maximum height to make sure it fits within the viewport */
+}
+
+.header,
+.banner-section,
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.banner-section {
+  height: 100vh;
+  padding-top: 150px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #3c94ff;
+  background-image: url(../img/bg.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-inner {
+  position: relative;
+  z-index: 888;
+}
+
+#aboutcontainer,
+#contactcontainer,
+#biocontainer {
+  display: none; /* Initially hide other sections */
+}
+
+.container {
+  overflow-y: auto;
+  max-height: 100vh;
+}
