@@ -8,395 +8,291 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/top.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <title>Bennett Bros LLC</title>
-  <!--fontawesome-->
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400&display=swap"
     rel="stylesheet" />
-  <meta property="og:title" content="Bennett Bros LLC">
-  <meta property="og:description" content="An IT Solution, that works for you.">
-  <meta property="og:url" content="https://bennettbrosllc.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bennett Bros LLC" />
+  <meta property="og:description" content="An IT Solution, that works for you." />
+  <meta property="og:url" content="https://bennettbrosllc.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta property="og:type" content="website" />
 </head>
 
-<style>
-  body {
-    font-family: 'Poppins', sans-serif;
-  }
+<style></style>
 
-  /* ---- particles.js container ---- */
-
-  #particles-js {
-    position: relative;
-    z-index: 2;
-    background-color: #000000;
-  }
-
-
-  .header,
-  .banner-section {
-    position: relative;
-    width: 100%;
-  }
-
-  .banner-section {
-    height: 100vh;
-    padding-top: 150px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: #3c94ff;
-    background-image: url(../img/bg.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-
-
-  .header-inner {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    z-index: 44;
-    left: 0;
-  }
-
-
-
-  @media only screen and (max-width:992px) {
-    .my-navbar {
-      background-color: rgba(0, 123, 255, .5);
-    }
-  }
-
-  .navbar-brand img {
-    width: 150px;
-    margin-right: 20px;
-  }
-
-  .nav-item .nav-link {
-    display: block;
-    font-size: 14px;
-    color: white;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 6px 10px;
-    transition: 0.4s ease;
-  }
-
-
-  canvas.particles-js-canvas-el {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-  }
-
-  .banner-inner {
-    position: relative;
-    z-index: 888;
-  }
-
-
-  .front-landing-text h1 {
-    font-size: 45px;
-    font-weight: 500;
-    color: white;
-    margin: 0;
-  }
-
-  .front-landing-text h2 {
-    font-size: 24px;
-    color: white;
-    margin: 25px 0 33px 0;
-    font-weight: 400;
-  }
-
-
-  .form-section form .input-group {
-    position: relative;
-  }
-
-  .form-section form .input-group input {
-    height: 55px;
-    font-size: 13px;
-    border: none;
-  }
-
-  .form-section form .input-group input:focus,
-  .form-inline .btn:focus,
-  .navbar-toggler:focus {
-    box-shadow: none;
-    outline: none;
-  }
-
-  .form-section form .input-group .submit {
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    width: 140px;
-    padding: 0px 5px;
-    border: none;
-    outline: none;
-    background-color: white;
-    border-radius: 0px 4px 4px 0px;
-    height: 55px;
-    position: relative;
-  }
-
-  .form-section form .input-group .submit span {
-    display: block;
-    background-color: #06f;
-    height: 47px;
-    position: absolute;
-    width: 130px;
-    line-height: 47px;
-    border-radius: 4px;
-    top: 50%;
-    transform: translatey(-50%);
-  }
-
-  .form-inline .btn {
-    background-color: #74b9ff;
-    padding: 4px 30px;
-    border-radius: 2px;
-    color: white;
-  }
-</style>
-
-<body class="bg-black">
-  <div class="header">
-    <div class="header-inner">
-      <div class="container-fluid px-lg-5">
-        <div class="d-flex justify-content-center py-3">
-          <nav class="nav nav-masthead justify-content-center float-md-center">
-            <a class="nav-link active text-light" aria-current="page" href="#" id="nav1"
-              onclick='switchTab("homecontainer")'>Home</a>
-            <a class="nav-link text-light" href="#" id="nav2" onclick='switchTab("aboutcontainer")'>About</a>
-            <a class="nav-link text-light" href="#" id="nav3" onclick='switchTab("contactcontainer")'>Pricing</a>
-            <a class="nav-link text-light" href="#" id="nav4" onclick='switchTab("biocontainer")'>Bio</a>
-          </nav>
-        </div>
-      </div>
-      </nav>
+<body style="background-color: black">
+  <div class="container menu" style="display: flex; align-items: flex-start;">
+    <h1 class="logo" style=" color: white; margin: 0;" onclick='switchTab("homecontainer")'>Bennett Brothers LLC</h1>
+    <div class="ui inverted grey basic buttons" style="display: flex; align-items: center;">
+      <button class="ui button" style="background-color: #1b1c1d; color: white" aria-current="page" id="nav1"
+        onclick='switchTab("homecontainer")'>Home</button>
+      <button class="ui button" id="nav2" onclick='switchTab("aboutcontainer")'>About Us</button>
+      <button class="ui button" id="nav3" onclick='switchTab("contactcontainer")'>Pricing</button>
+      <button class="ui button" id="nav4" onclick='switchTab("biocontainer")'>Bio</button>
     </div>
   </div>
+
 
 
   <div class="banner-section" id="particles-js">
+    <!-- Landing -->
     <div class="container" id="homecontainer">
-      <div class="row d-flex justify-content-center banner-inner">
-        <div class="col-lg-12">
-          <div class="front-landing-text text-center">
-            <h1>Bennett Brothers LLC</h1>
-            <h2>An IT solution, that works for you.</h2>
+      <div class="container-fluid px-lg-5">
+        <div class="ui center aligned grid">
+          <div class="row">
+            <div class="column">
+              <div class="front-landing-text text-center">
+                <h1 class="ui inverted header">Bennett Brothers LLC</h1>
+                <h2 class="ui inverted header">
+                  An IT solution, that works for you.
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- About Us -->
     <div class="container" id="aboutcontainer" style="display: none">
-      <div class="row d-flex justify-content-center banner-inner">
-        <div class="col-lg-12">
-          <div class="front-landing-text text-center">
-            <h1>Bennett Brothers LLC</h1>
-            <h2>Dedicated, Easy to Work With, Expert IT Business</h2>
+      <div class="container-fluid px-lg-5">
+        <div class="ui center aligned rounded two column doubling stackable grid">
+          <div class="row ">
+            <div class="column">
+              <div class="ui inverted top attached segment">
+                <h2>Dedicated, Easy to Work With, Expert IT Business</h2>
+                <p>
+                  Our IT business is dedicated to providing exceptional
+                  service and solutions for professionals. Our expert team
+                  stays current with the latest trends and technologies,
+                  enabling us to deliver innovative, tailored solutions to
+                  businesses of all sizes. We prioritize our clients'
+                  success by understanding their unique challenges and
+                  designing customized IT strategies that align with their
+                  goals. Our commitment to excellence ensures we are always
+                  available to address concerns, provide support, and offer
+                  proactive advice to enhance IT infrastructure.
+                </p>
+                <p>
+                  We offer custom and comprehensive solutions that optimize
+                  efficiency, streamline operations, and drive growth.
+                  Whether we are setting up your infrastructure for the
+                  first time, or streamlining your existing infrastructure,
+                  our approachable and collaborative nature makes us a
+                  trusted partner, dedicated to exceeding expectations and
+                  building long-lasting partnerships. Trust us to meet your
+                  IT needs with excellence and integrity.
+                </p>
 
-            <p class="text-white">Our IT business prides itself on being dedicated, easy to work with, and comprised of
-              true experts in the field. Our team is committed to providing exceptional services and solutions to our
-              clients, ensuring their technological needs are met with utmost professionalism and efficiency. With a
-              deep understanding of the ever-evolving IT landscape, our experts stay up to date with the latest trends,
-              best practices, and cutting-edge technologies, enabling us to deliver innovative and tailored solutions to
-              businesses of all sizes.</p>
-
-            <p class="text-white">One of our core strengths is our dedication to our clients' success. We go above and
-              beyond to understand their unique challenges and goals, allowing us to design customized IT strategies
-              that align with their business objectives. Our commitment to excellent customer service ensures that we
-              are always available to address any concerns, provide timely support, and offer proactive advice to
-              enhance their IT infrastructure. Our team's approachable and friendly nature fosters a collaborative
-              environment, where open communication and a strong work ethic are paramount, making us a trusted partner
-              for our clients.</p>
-
-            <p class="text-white">In addition to our dedication, our IT business is renowned for its expertise. Our team
-              comprises highly skilled professionals who possess extensive knowledge and experience across a wide range
-              of IT disciplines. From network infrastructure and cybersecurity to cloud computing and software
-              development, our experts have the technical prowess and the problem-solving skills to tackle even the most
-              complex IT challenges. By leveraging our expertise, we provide comprehensive solutions that optimize
-              efficiency, streamline operations, and drive sustainable growth for our clients. Working with us means
-              benefiting from a team of experts who are not only proficient in their craft but are also passionate about
-              delivering exceptional results.</p>
-
-            <p class="text-white">Overall, our dedicated, easy-to-work-with, and expert IT business is committed to
-              helping our clients thrive in the digital age. Through personalized attention, innovative solutions, and a
-              collaborative approach, we strive to exceed expectations and build long-lasting partnerships. With our
-              team of skilled professionals by your side, you can trust that your IT needs will be met with excellence,
-              integrity, and a deep understanding of your unique business requirements.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Pricing -->
     <div class="container" id="contactcontainer">
-      <div class="row d-flex justify-content-center banner-inner">
-        <div class="col-lg-12">
-          <div class="front-landing-text text-center">
-
-
-
-            <!-- Pricing Accordion -->
-            <div class="accordion mt-5 text-white bg-dark text-center" id="pricingAccordion">
-
-              <!-- Droplet Site Migration -->
-              <div class="accordion-item text-white bg-dark text-center">
-                <h2 class="accordion-header" id="dropletHeading">
-                  <button class="accordion-button text-white bg-dark text-center" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#dropletCollapse" aria-expanded="true"
-                    aria-controls="dropletCollapse">
-                    Website
-                  </button>
-                </h2>
-                <div id="dropletCollapse" class="accordion-collapse collapse collapsed" aria-labelledby="dropletHeading"
-                  data-bs-parent="#pricingAccordion">
-                  <div class="accordion-body">
-                    <p>Migration into a droplet site - $100 (no changes/alterations)</p>
-                    <ul>
-                      <li>Monthly Hosting (Not for use with transactions - Not dedicated):</li>
-                      <li>$10/mo</li>
-                      <li>$25/mo</li>
-                      <li>$30/mo</li>
-                    </ul>
-                    <p>Online Evaluation/Needs Assessment – Free</p>
-                    <p>SEO one-time cleanup - $100</p>
-                    <p>Conversion to recommended software stack - $40 per 5 pages</p>
-                    <p>Total Site Administration - $200 - $500 initial, $25/mo maintenance (max 2 hours/mo work)</p>
-                    <p>Custom Order websites available, prices vary</p>
+      <div class="container-fluid px-lg-5">
+        <div class="ui center aligned rounded two column doubling stackable grid">
+          <div class="row ">
+            <div class="column">
+              <div class="ui inverted top attached segment">
+                <div class="item">
+                  <div class="content">
+                    <h2 class="header">IT Work</h2>
+                    <p>Needs Assessment <i class="angle right icon"></i> Free</p>
+                    <p>
+                      Maintenance Contract <i class="angle right icon"></i> $200/mo (first 5/hr), $50/hr
+                      after that
+                    </p>
+                    <p>
+                      Wifi Overhaul <i class="angle right icon"></i> $500 (covers 1250 sq feet coverage)
+                    </p>
+                    <p>Setup router/firewall <i class="angle right icon"></i> $500</p>
+                    <p>Combo router/access point <i class="angle right icon"></i> $700</p>
+                    <p>
+                      Custom networking Depending on needs of the
+                      business, prices may vary
+                    </p>
+                  </div>
+                </div>
+                <div class="ui divider card-inner-divider"></div>
+                <div class="item">
+                  <div class="content">
+                    <h2 class="header">Website</h2>
+                    <p>New Website (No Contract) <i class="angle right icon"></i> $3000</p>
+                    <p>New Website (w/maint contract) <i class="angle right icon"></i> $2000</p>
+                    <p>
+                      Website Migration (w/maint contract) <i class="angle right icon"></i> $1000
+                    </p>
+                    <p>
+                      Monthly Hosting <i class="angle right icon"></i> $20 - $60/mo
+                    </p>
+                  </div>
+                </div>
+                <div class="ui divider card-inner-divider"></div>
+                <div class="item">
+                  <div class="content">
+                    <h2 class="header">Custom Scripts</h2>
+                    <p>BBLLC offers custom scripting contact us for further details</p>
                   </div>
                 </div>
               </div>
-
-              <!-- Layer one/network -->
-              <div class="accordion-item text-white bg-dark text-center">
-                <h2 class="accordion-header" id="layerOneHeading">
-                  <button class="accordion-button text-white bg-dark text-center collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#layerOneCollapse" aria-expanded="false"
-                    aria-controls="layerOneCollapse">
-                    Layer one/network
-                  </button>
-                </h2>
-                <div id="layerOneCollapse" class="accordion-collapse collapse" aria-labelledby="layerOneHeading"
-                  data-bs-parent="#pricingAccordion">
-                  <div class="accordion-body">
-                    <p>Needs Assessment - Free</p>
-                    <p>Contract $100/mo (covers first 5 hours), $30/hr after that</p>
-                    <p>Wifi Overhaul - $300 (covers 1250 sq feet coverage)</p>
-                    <p>Setup router/firewall - $300</p>
-                    <p>Combo router/access point - $500</p>
-                    <p>Custom networking Depending on needs of the business, prices vary</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Custom Scripts -->
-              <div class="accordion-item text-white bg-dark text-center">
-                <h2 class="accordion-header" id="customScriptsHeading">
-                  <button class="accordion-button text-white bg-dark text-center collapsed" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#customScriptsCollapse" aria-expanded="false"
-                    aria-controls="customScriptsCollapse">
-                    Custom Scripts
-                  </button>
-                </h2>
-                <div id="customScriptsCollapse" class="accordion-collapse collapse"
-                  aria-labelledby="customScriptsHeading" data-bs-parent="#pricingAccordion">
-                  <div class="accordion-body">
-                    <p>BBLLC offers custom scripted application $100/hr (no maintenance plan)</p>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container" id="biocontainer" style="display: none">
-      <div class="row d-flex justify-content-center banner-inner">
-        <div class="col-lg-6">
-          <div class="card text-white bg-dark mb-3 text-center">
-            <div class="card-img-container mt-5" style="display: flex; justify-content: center;">
-              <img src="./img/Logan.png" class="card-img-top img-fluid border rounded-circle" alt="Card Image 1"
-                style="width: 150px; height: 150px; object-fit: cover; object-position: top center;">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Logan Bennett</h5>
-              <p class="card-text">Passionate about the ever-evolving world of technology, I bring over half a decade of
-                experience working for CenturyLink
-                to my journey in the field of IT. Specializing in Linux, server applications, and networking, my
-                enthusiasm for these
-                technologies has been a driving force throughout my career. During my tenure at CenturyLink, I not only
-                honed my skills
-                but also developed a deep understanding of various aspects of information technology. This experience,
-                coupled with a
-                natural problem-solving mindset, forms the foundation of my commitment to excellence. Eager to make my
-                mark in the
-                field, I am poised to contribute fresh perspectives and innovative solutions to the ever-growing
-                challenges in the tech
-                landscape. I hope to provide an exceptional service for you and your company.</p>
-              <a href="./contacts/Logan.vcf" class="btn btn-primary">Add Contact</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card text-white bg-dark mb-3 text-center">
-            <div class="card-img-container mt-5" style="display: flex; justify-content: center;">
-              <img src="./img/Lehi.png" class="card-img-top img-fluid border rounded-circle" alt="Card Image 2"
-                style="width: 150px; height: 150px; object-fit: cover; object-position: top center;">
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Lehi Bennett</h5>
-              <p class="card-text">As a dedicated family man and seasoned IT professional with nearly a decade of
-                experience, I seamlessly balance the
-                responsibilities of both my personal and professional life. My commitment to fostering a strong family
-                bond is evident
-                in the time and effort I invest in creating meaningful connections with my loved ones. In addition to my
-                role in the IT industry, I passionately contribute to a non-profit web developer community, where my
-                voluntary efforts, focused on educating the next generation of IT professionals, have helped nurture a
-                thriving network
-                of nearly 7 thousand members. Beyond the digital World, I find joy in channeling my creative
-                energy into the world of robotics during my free time, exploring the exciting intersection of technology
-                and innovation.
-                This multifaceted engagement reflects my holistic approach to life, where family, professional
-                expertise, community
-                service, and personal interests converge seamlessly.</p>
-              <a href="./contacts/Lehi.vcf" class="btn btn-primary">Add Contact</a>
+
+  <!-- Biographies -->
+  <div class="container" id="biocontainer" style="display: none">
+    <div class="container-fluid px-lg-5">
+      <div class="ui center aligned grid">
+        <div class="row">
+          <div class="column">
+            <div class="ui cards centered">
+              <div class="ui card">
+                <div>
+                  <img class="centered ui small circular image" src="./img/Logan.png" alt="Logan Bennett" />
+                </div>
+                <div class="content">
+                  <div class="header">Logan Bennett</div>
+                  <div class="meta">
+                    <a class="date meta" href="tel:208-600-8573"><i class="phone icon"></i> (208) 600-8573</a>
+                    <br>
+                    <a class="date meta" href="mailto:logan.bennett@bennettrosllc.com"><i class="envelope icon"></i> logan.bennett@bennettrosllc.com</a>
+                  </div>
+                  <div class="description">
+                    <p id="loganModalButton">
+                      Passionate about the ever-evolving world of
+                      technology, I bring over half a decade of experience
+                      working for CenturyLink to my journey in the field
+                      of IT.
+                      <a href="#" id="loganModalButton"><u>Read more ...</u></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="ui card">
+                <div>
+                  <img class="centered ui small circular image" src="./img/Lehi.png" alt="Lehi Bennett" />
+                </div>
+                <div class="content">
+                  <div class="header">Lehi Bennett</div>
+                  <div class="meta">
+                    <a class="date meta" href="tel:208-600-8573"><i class="phone icon"></i> (208) 515-9995</a>
+                    <br>
+                    <a class="date meta" href="mailto:lehi.bennett@bennettrosllc.com"><i class="envelope icon"></i> lehi.bennett@bennettrosllc.com</a>
+                  </div>
+                  <div class="description">
+                    <p>
+                      As a dedicated family man and seasoned IT
+                      professional with a decade of experience <a href="#" id="lehiModalButton"><u>Read more ...</u></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-
-
-  <!-- Optional JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <!-- Then include other scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"></script>
+  </div>
+  <!-- Modals -->
+  <!-- Logan -->
+  <div class="ui modal" id="loganModal">
+    <i class="close icon"></i>
+    <div class="header" style="background-color: #1b1c1d; color: white">
+      Logan Bennett
+    </div>
+    <div class="content" style="background-color: #1b1c1d; color: white">
+      <p>
+        Passionate about the ever-evolving world of technology, I bring over
+        half a decade of experience working for CenturyLink to my journey in
+        the field of IT. Specializing in Linux, server applications, and
+        networking, my enthusiasm for these technologies has been a driving
+        force throughout my career. During my tenure at CenturyLink, I not
+        only honed my skills but also developed a deep understanding of
+        various aspects of information technology. This experience, coupled
+        with a natural problem-solving mindset, forms the foundation of my
+        commitment to excellence. Eager to make my mark in the field, I am
+        poised to contribute fresh perspectives and innovative solutions to
+        the ever-growing challenges in the tech landscape. I hope to provide
+        an exceptional service for you and your company.
+      </p>
+    </div>
+    <div class="actions" style="background-color: #1b1c1d; color: white">
+      <a href="./contacts/Lehi.vcf" class="ui primary button">Add Contact</a>
+    </div>
+  </div>
+  <!-- Lehi -->
+  <div class="ui modal" id="lehiModal">
+    <i class="close icon"></i>
+    <div class="header" style="background-color: #1b1c1d; color: white">
+      Lehi Bennett
+    </div>
+    <div class="content" style="background-color: #1b1c1d; color: white">
+      <p>
+        As a dedicated family man and seasoned IT professional with nearly a
+        decade of experience, I seamlessly balance the responsibilities of
+        both my personal and professional life. My commitment to fostering a
+        strong family bond is evident in the time and effort I invest in
+        creating meaningful connections with my loved ones. In addition to
+        my role in the IT industry, I passionately contribute to a
+        non-profit web developer community, where my voluntary efforts,
+        focused on educating the next generation of IT professionals, have
+        helped nurture a thriving network of nearly 7 thousand members.
+        Beyond the digital World, I find joy in channeling my creative
+        energy into the world of robotics during my free time, exploring the
+        exciting intersection of technology and innovation. This
+        multifaceted engagement reflects my holistic approach to life, where
+        family, professional expertise, community service, and personal
+        interests converge seamlessly.
+      </p>
+    </div>
+    <div class="actions" style="background-color: #1b1c1d; color: white">
+      <a href="./contacts/Lehi.vcf" class="ui primary button">Add Contact</a>
+    </div>
+  </div>
+  </div>
+  <!-- Semantic UI JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/customfunctions.js"></script>
   <script src="js/app.js"></script>
+  <script>
+    // Wait for the document to fully load before executing any JavaScript
+    document.addEventListener("DOMContentLoaded", function () {
+      // Event listener for opening the Logan modal
+      document
+        .getElementById("loganModalButton")
+        .addEventListener("click", function () {
+          $("#loganModal")
+            .modal({
+              blurring: true,
+            })
+            .modal("show");
+        });
+
+      // Event listener for opening the Lehi modal
+      document
+        .getElementById("lehiModalButton")
+        .addEventListener("click", function () {
+          $("#lehiModal")
+            .modal({
+              blurring: true,
+            })
+            .modal("show");
+        });
+    });
+  </script>
 </body>
 
 </html>

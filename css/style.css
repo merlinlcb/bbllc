@@ -267,3 +267,14 @@ p {
   overflow-y: auto;
   max-height: 100vh;
 }
+
+.ui.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ui.card {
+  margin: 10px;
+}
